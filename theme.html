@@ -19,7 +19,7 @@ layout: default
     <!-- Main -->
     <div id="main">
         {% for image in site.static_files %}
-        {% if image.path contains 'fulls' %}
+        {% if image.path contains 'index_italy_fulls' %}
         <article class="thumb">
             <a href="{{ site.baseurl }}{{ site.index_italy_fulls_loc }}/{{ image.name }}" class="image">
                 <img src="{{ site.baseurl }}{{ site.index_italy_thumbs_loc }}/{{ image.name }}" alt=""
@@ -36,7 +36,7 @@ layout: default
         <div class="inner split">
             <div>
                 <section>
-                    <h2>Hey there, my name is Ram</h2>
+                    <h2>This is Main page</h2>
                     <p>{{ site.bio }}</p>
                     <p>{{ site.publicise }}</p>
                 </section>
