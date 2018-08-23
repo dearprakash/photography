@@ -19,7 +19,7 @@ layout: default
     <!-- Main -->
     <div id="main">
         {% for image in site.static_files %}
-        {% if image.path contains 'index_image_fulls' %}
+        {% if image.path contains 'index' %}
         <article class="thumb">
             <a href="{{ site.baseurl }}{{ site.index_image_fulls_loc }}/{{ image.name }}" class="image">
                 <img src="{{ site.baseurl }}{{ site.index_image_thumbs_loc }}/{{ image.name }}" alt=""
