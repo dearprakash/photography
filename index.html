@@ -7,8 +7,8 @@ layout: default
 
     <!-- Header -->
     <header id="header">
-        <h1><a href="index.html"><strong>Photography</strong> by Ram Patra</a></h1>
-        <h1><a href="theme.html"><strong>Theme</strong></a></h1>
+        <h1><a href="index.html"><strong>Norway</strong></a></h1>
+        <h1><a href="theme.html"><strong>Italy</strong></a></h1>
         <nav>
             <ul>
                 <li><a href="#footer" class="icon fa-info-circle">About</a></li>
@@ -21,8 +21,8 @@ layout: default
         {% for image in site.static_files %}
         {% if image.path contains 'fulls' %}
         <article class="thumb">
-            <a href="{{ site.baseurl }}{{ site.image_fulls_loc }}/{{ image.name }}" class="image">
-                <img src="{{ site.baseurl }}{{ site.image_thumbs_loc }}/{{ image.name }}" alt=""
+            <a href="{{ site.baseurl }}{{ site.index_image_fulls_loc }}/{{ image.name }}" class="image">
+                <img src="{{ site.baseurl }}{{ site.index_image_thumbs_loc }}/{{ image.name }}" alt=""
                      data-name="{{ image.name }}"/></a>
             <!--<h2></h2>
             <p></p>-->
@@ -36,7 +36,7 @@ layout: default
         <div class="inner split">
             <div>
                 <section>
-                    <h2>Hey there, my name is Ram</h2>
+                    <h2>Its a brand new day</h2>
                     <p>{{ site.bio }}</p>
                     <p>{{ site.publicise }}</p>
                 </section>

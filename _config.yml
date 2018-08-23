@@ -1,16 +1,18 @@
 # Base configs
 baseurl: "http://blog.praka.sh/photography"
-image_fulls_loc: "/images/fulls"
-image_thumbs_loc: "/images/thumbs"
+index_image_fulls_loc: "/images/index/fulls"
+index_image_thumbs_loc: "/images/index/thumbs"
+index_italy_fulls_loc: "/images/italy/fulls"
+index_italy_thumbs_loc: "/images/italy/thumbs"
 google_analytics: "-2"
 
 # UI configs
 title: "Photography by Prakash Rajendran"
-subtitle: "Nothing is what it seems!"
+subtitle: "Nothing is just what it seems!"
 author: "Prakash Rajendran"
 bio: "I am now learning photography."
-publicise: "Want a website like this for yourself for free? ;)"
-web_design: "AJ"
+publicise: ""
+web_design: ""
 social_urls:
   facebook: "https://www.facebook.com/dearprakash"
   twitter: "https://www.twitter.com/dearprakash"
