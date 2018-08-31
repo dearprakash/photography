@@ -1,5 +1,5 @@
 # Base configs
-baseurl: "http://blog.praka.sh/photography"
+baseurl: "http://shutter.praka.sh/"
 index_image_fulls_loc: "/images/index/fulls"
 index_image_thumbs_loc: "/images/index/thumbs"
 index_italy_fulls_loc: "/images/italy/fulls"
